@@ -13,7 +13,7 @@ public class CountUntil{
 			int input = scan.nextInt();
 			loop(input);
 		} catch (Exception e) {
-			System.out.println("Please try again, use a number");
+			System.out.println("Please try again, use a number between 0 and 2147483647");
 			inquire();
 		}
 	}
