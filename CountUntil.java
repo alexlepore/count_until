@@ -17,8 +17,8 @@ public class CountUntil{
 			inquire();
 		}
 	}
-	static void loop(int user_input){
 
+	static void loop(int user_input){
 		int i = 0;
 
 		while (i < user_input) {
